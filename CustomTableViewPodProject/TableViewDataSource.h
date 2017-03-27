@@ -13,7 +13,7 @@
 
 @property(assign) int numberOfRows;
 
-@property(assign) NSInteger *numberOfSections;
+@property(assign) int numberOfSections;
 @property (nonatomic, retain) NSMutableArray *dataArray;
 @property (nonatomic, weak)UITableView *tableView;
 
